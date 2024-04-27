@@ -19,11 +19,11 @@ _-xn_ : prints the process IDs of all the non-direct descendants of _pid_
 
 _-xd_ : prints the process IDs of all the immediate descendants of _pid_
 
-_ -xs_ : prints the process IDs of all the sibling processes of _pid_
+_-xs_ : prints the process IDs of all the sibling processes of _pid_
 
-_ -xt_ : _pid_ is paused with SIGSTOP
+_-xt_ : _pid_ is paused with SIGSTOP
 
-_ -xc_ : SIGCONT is sent to all processes that have been paused earlier 
+_-xc_ : SIGCONT is sent to all processes that have been paused earlier 
 
 _- xz_ : prints the process IDs of all descendents of _pid_ that are defunct
 
